@@ -1,4 +1,4 @@
-https://travis-ci.org/canonchain/argon2-wasm.svg?branch=master
+[![Build Status](https://travis-ci.org/canonchain/argon2-wasm.svg?branch=master)](https://travis-ci.org/canonchain/argon2-wasm)
 
 # argon2-wasm
 
