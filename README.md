@@ -1,3 +1,5 @@
+https://travis-ci.org/canonchain/argon2-wasm.svg?branch=master
+
 # argon2-wasm
 
 argon2 run as WebAssembly.
