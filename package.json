@@ -1,0 +1,26 @@
+{
+  "name": "argon2-wasm",
+  "version": "1.0.0",
+  "description": "Argon2 library compiled for browser runtime",
+  "main": "lib/argon2.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canonchain/argon2-wasm.git"
+  },
+  "author": "Antelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canonchain/argon2-wasm/issues"
+  },
+  "homepage": "https://github.com/canonchain/argon2-wasm#readme",
+  "devDependencies": {
+    "assert": "^2.0.0"
+  }
+}
