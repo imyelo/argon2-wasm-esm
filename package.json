@@ -22,5 +22,8 @@
   "homepage": "https://github.com/canonchain/argon2-wasm#readme",
   "devDependencies": {
     "assert": "^2.0.0"
+  },
+  "dependencies": {
+    "eslint": "^6.3.0"
   }
 }

@@ -4,7 +4,8 @@ os:
   - osx
   - windows
 node_js:
-  - "10.15.0"
+- "8.15.0"
+- "10.15.0"
 
 install: npm install
 script: 

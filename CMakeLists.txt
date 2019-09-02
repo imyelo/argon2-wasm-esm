@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 2.8)
 
 project(agron2)
 
-add_definitions(-DARGON2_JS)
-
 set(ARCHIVE_OUTPUT_DIRECTORY dist)
 set(LIBRARY_OUTPUT_DIRECTORY dist)
 set(RUNTIME_OUTPUT_DIRECTORY dist)

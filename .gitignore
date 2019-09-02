@@ -16,6 +16,7 @@ lib-cov
 node_modules/
 .idea/
 docs/
+.eslintrc.js
 
 # Coverage directory used by tools like istanbul
 coverage
