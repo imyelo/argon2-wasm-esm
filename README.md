@@ -2,7 +2,7 @@
 
 # argon2-wasm
 
-https://github.com/P-H-C/phc-winner-argon2compiled to WebAssembly using Emscripten and optimized for small size
+https://github.com/P-H-C/phc-winner-argon2 compiled to WebAssembly using Emscripten and optimized for small size
 
 argon2 run as WebAssembly.
 
