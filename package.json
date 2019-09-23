@@ -1,5 +1,5 @@
 {
-  "name": "argon2-wasm",
+  "name": "argon2-wasm-pro",
   "version": "1.0.0",
   "description": "Argon2 library compiled for browser runtime",
   "main": "lib/argon2.js",
