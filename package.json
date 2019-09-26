@@ -27,7 +27,5 @@
     "eslint": "^6.3.0",
     "webpack-cli": "^3.3.6"
   },
-  "dependencies": {
-    "base64-loader": "^1.0.0"
-  }
+  "dependencies": {}
 }

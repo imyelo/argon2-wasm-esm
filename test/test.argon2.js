@@ -7,7 +7,7 @@ let option = {
     pass:'password',
     salt: _salt,
 
-    type: argon2.ArgonType.Argon2d,
+    type: argon2.argon2d,
     time:1,
     mem: 16 * 1024,
     parallelism:1,
