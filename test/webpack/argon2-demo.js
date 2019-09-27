@@ -1,6 +1,6 @@
-const argon2 = require('../lib/argon2');
+const argon2 = require('../../lib/argon2');
 
-console.log('Canonchain',argon2);
+console.log('Canonchain Test',argon2);
 
 
 argon2

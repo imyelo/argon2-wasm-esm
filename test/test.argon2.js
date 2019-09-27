@@ -18,7 +18,7 @@ let option = {
 
 let encode;
 
-describe("argon2", async () => {
+describe("argon2Test", async () => {
     it("argon2_hash", async () => {
         let hash = await argon2.hash(option)
         encode = hash.encoded;

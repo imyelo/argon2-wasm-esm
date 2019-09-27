@@ -11,36 +11,39 @@ argon2 run as WebAssembly.
 install:
 
 ```js
-npm install git+https://github.com/canonchain/argon2-wasm.git
+npm install argon2-wasm-pro
 ```
 
 Add script:
 
 ```js
-const argon2 = require("argon2-wasm");
+const argon2 = require('argon2-wasm-pro');
 ```
 
 Get hash:
 
 ```js
-argon2.hash({ pass: 'password', salt: 'somesalt' })
-    .then(h => console.log(h.hash, h.hashHex, h.encoded))
-    .catch(e => console.error(e.message, e.code))
+argon2
+  .hash({ pass: 'password', salt: 'somesalt' })
+  .then(h => console.log(h.hash, h.hashHex, h.encoded))
+  .catch(e => console.error(e.message, e.code));
 ```
 
 Verify the encoded hash:
 
 ```js
-argon2.verify({ pass: 'password', encoded: 'enc-hash' })
-    .then(() => console.log('OK'))
-    .catch(e => console.error(e.message, e.code))
+argon2
+  .verify({ pass: 'password', encoded: 'enc-hash' })
+  .then(() => console.log('OK'))
+  .catch(e => console.error(e.message, e.code));
 ```
 
 Bring your own bundler and promise polyfill.
 Other parameters:
 
 ```js
-argon2.hash({
+argon2
+  .hash({
     // required
     pass: 'password',
     salt: 'salt',
@@ -51,21 +54,19 @@ argon2.hash({
     parallelism: 1, // desired parallelism (will be computed in parallel only for PNaCl)
     type: argon2.ArgonType.Argon2d, // or argon2.ArgonType.Argon2i
     distPath: '' // asm.js script location, without trailing slash
-})
-// result
-.then(res => {
-    res.hash // hash as Uint8Array
-    res.hashHex // hash as hex-string
-    res.encoded // encoded hash, as required by argon2
-})
-// or error
-.catch(err => {
-    err.message // error message as string, if available
-    err.code // numeric error code
-})
+  })
+  // result
+  .then(res => {
+    res.hash; // hash as Uint8Array
+    res.hashHex; // hash as hex-string
+    res.encoded; // encoded hash, as required by argon2
+  })
+  // or error
+  .catch(err => {
+    err.message; // error message as string, if available
+    err.code; // numeric error code
+  });
 ```
-
-
 
 ## Building
 

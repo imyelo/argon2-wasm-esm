@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './webpack-demo/argon2-demo-webpack.js',
+    entry: './test/webpack/argon2-demo.js',
     output: {
-        path: path.resolve(__dirname, 'webpack-demo/dist'),
-        publicPath: 'webpack-demo/dist/',
+        path: path.resolve(__dirname, './test/webpack//dist'),
+        publicPath: './test/webpack/dist/',
         filename: 'bundle.js'
     }
 };
