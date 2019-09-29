@@ -2,9 +2,10 @@
 
 # argon2-wasm
 
-https://github.com/P-H-C/phc-winner-argon2 compiled to WebAssembly using Emscripten and optimized for small size
+https://github.com/P-H-C/phc-winner-argon2 compiled to base64,It works in both the NodeJS environment and the browser environment.
 
-argon2 run as WebAssembly.
+This project does not need to reference annoying ".wasm" files when used under the browser.
+
 
 ## usage
 
