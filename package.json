@@ -1,12 +1,21 @@
 {
   "name": "argon2-wasm-esm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Argon2 ESM for browser",
   "main": "lib/argon2.js",
   "files": [
     "lib"
   ],
-  "keywords": ["argon2", "esm", "wasm", "browser", "vite", "credential", "crypto", "hash"],
+  "keywords": [
+    "argon2",
+    "esm",
+    "wasm",
+    "browser",
+    "vite",
+    "credential",
+    "crypto",
+    "hash"
+  ],
   "scripts": {
     "start": "webpack",
     "test": "mocha"
