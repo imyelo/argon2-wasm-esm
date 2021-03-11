@@ -6,6 +6,7 @@
   "files": [
     "lib"
   ],
+  "keywords": ["argon2", "esm", "wasm", "browser", "vite", "credential", "crypto", "hash"],
   "scripts": {
     "start": "webpack",
     "test": "mocha"
