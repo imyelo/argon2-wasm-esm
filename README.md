@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/canonchain/argon2-wasm.svg?branch=master)](https://travis-ci.org/canonchain/argon2-wasm)
+# argon2-wasm-esm
 
-# argon2-wasm
+Base on [antelle/argon2-browser](https://github.com/antelle/argon2-browser) and [canonchain/argon2-wasm](https://github.com/canonchain/argon2-wasm), with an **ES Module** exporting. **Just works PERFECT with [Vite](https://vitejs.dev).**
 
 https://github.com/P-H-C/phc-winner-argon2 compiled to base64,It works in both the NodeJS environment and the browser environment.
 
@@ -12,13 +12,13 @@ This project does not need to reference annoying ".wasm" files when used under t
 install:
 
 ```js
-npm install argon2-wasm-pro
+npm install argon2-wasm-esm
 ```
 
 Add script:
 
 ```js
-const argon2 = require('argon2-wasm-pro');
+const argon2 = require('argon2-wasm-esm');
 ```
 
 Get hash:
@@ -69,9 +69,7 @@ argon2
   });
 ```
 
-## Building
-
-Prerequesties:
-
-- emscripten with WebAssembly support (https://webassembly.org/getting-started/developers-guide/)
-- CMake
+## Related Projects
+- [P-H-C/phc-winner-argon2](https://github.com/P-H-C/phc-winner-argon2)
+- [antelle/argon2-browser](https://github.com/antelle/argon2-browser)
+- [canonchain/argon2-wasm](https://github.com/canonchain/argon2-wasm)
