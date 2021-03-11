@@ -1,12 +1,11 @@
 {
   "name": "argon2-wasm-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Argon2 ESM for browser",
   "main": "lib/argon2.js",
-  "directories": {
-    "doc": "docs",
-    "lib": "lib"
-  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "start": "webpack",
     "test": "mocha"

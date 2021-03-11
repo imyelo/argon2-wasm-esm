@@ -1,13 +1,12 @@
 # argon2-wasm-esm
 
-Base on [antelle/argon2-browser](https://github.com/antelle/argon2-browser) and [canonchain/argon2-wasm](https://github.com/canonchain/argon2-wasm), with an **ES Module** exporting. **Just works PERFECT with [Vite](https://vitejs.dev).**
+Base on [antelle/argon2-browser](https://github.com/antelle/argon2-browser) and [canonchain/argon2-wasm](https://github.com/canonchain/argon2-wasm), with an **ES Module** exporting. Just **Works PERFECT with [Vite](https://vitejs.dev).**
 
 https://github.com/P-H-C/phc-winner-argon2 compiled to base64,It works in both the NodeJS environment and the browser environment.
 
 This project does not need to reference annoying ".wasm" files when used under the browser.
 
-
-## usage
+## Usage
 
 install:
 
