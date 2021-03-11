@@ -1,7 +1,7 @@
 {
-  "name": "argon2-wasm-pro",
+  "name": "argon2-wasm-esm",
   "version": "1.1.0",
-  "description": "Argon2 library compiled for browser runtime",
+  "description": "Argon2 ESM for browser",
   "main": "lib/argon2.js",
   "directories": {
     "doc": "docs",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/canonchain/argon2-wasm.git"
+    "url": "https://github.com/imyelo/argon2-wasm-esm.git"
   },
   "author": "Antelle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/canonchain/argon2-wasm/issues"
+    "url": "https://github.com/imyelo/argon2-wasm-esm/issues"
   },
-  "homepage": "https://github.com/canonchain/argon2-wasm#readme",
+  "homepage": "https://github.com/imyelo/argon2-wasm-esm#readme",
   "devDependencies": {
     "assert": "^2.0.0",
     "webpack": "^4.38.0",
